@@ -24,6 +24,7 @@ class Faturamento
         int diasAcimaDaMedia = faturamentos.Count(n => n.Valor > mediaFaturamento);
 
 
+
         Console.WriteLine($"O valor mínimo do nosso faturamento foi de: {menorFaturamento:C}.");
         Console.WriteLine($"O maior valor do nosso faturamento foi de: {maiorFaturamento:C}.");
         Console.WriteLine($"Nossos dias com o maior faturamento diário foram {diasAcimaDaMedia} dias, com a média de: {mediaArrendada:C}!");
