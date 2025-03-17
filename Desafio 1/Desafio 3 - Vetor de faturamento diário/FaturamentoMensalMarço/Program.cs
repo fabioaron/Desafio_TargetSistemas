@@ -1,5 +1,4 @@
-﻿using FaturamentoMensalMarço;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 
 class Faturamento
